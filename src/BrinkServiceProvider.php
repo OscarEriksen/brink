@@ -12,12 +12,6 @@ class BrinkServiceProvider extends ServiceProvider
         $this->registerConsoleCommands();
     }
 
-    public function boot()
-    {
-        \Artisan::call('brink');
-
-    }
-
     private function registerConsoleCommands()
     {
         $this->commands(Commands\InstallCommand::class);
