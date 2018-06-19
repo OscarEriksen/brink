@@ -1,0 +1,21 @@
+{
+  "name": "peterbrinck/brink",
+  "description": "Better Bootstrap 4 workflow for Laravel",
+  "keywords": ["laravel", "theme", "bootstrap", "bootstrap4", "sage"],
+  "license": "MIT",
+  "require": {
+    "laravel/framework": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "PeterBrinck\\Brink\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PeterBrinck\\Brink\\BrinkServiceProvider"
+      ]
+    }
+  }
+}
