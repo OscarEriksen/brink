@@ -20,6 +20,5 @@ class Brink
         $filesystem->delete(resource_path('assets/sass/_variables.scss'));
 
         $filesystem->copyDirectory(__DIR__.'/brink-stubs/resources/assets/sass', resource_path('assets/sass'));
-
     }
 }

@@ -8,7 +8,6 @@ use PeterBrinck\Brink\Brink;
 
 class InstallCommand extends Command
 {
-
     protected $signature = 'brink {--force}';
 
     protected $description = 'Installing Brink';

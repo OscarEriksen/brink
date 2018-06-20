@@ -2,7 +2,6 @@
 
 namespace PeterBrinck\Brink;
 
-
 use Illuminate\Support\ServiceProvider;
 
 class BrinkServiceProvider extends ServiceProvider
