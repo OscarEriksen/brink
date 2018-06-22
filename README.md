@@ -14,3 +14,6 @@ Please open an issue or a pull request if you have anything to add.
 
 If a file called `app.scss` already exists you will be asked to confirm because it will overwrite your current files.
 You can also use the `--force` option to force the installation without any confirmation.
+
+## License
+The package is licensed under the [MIT license](https://opensource.org/licenses/MIT)
